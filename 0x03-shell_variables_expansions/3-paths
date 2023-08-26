@@ -1,2 +1,2 @@
 #!/bin/bash
-path_env = os.environ.get('PATH')
+echo $PATH | tr "i" "\n" | wc -l
